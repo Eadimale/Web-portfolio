@@ -1,3 +1,5 @@
+
+
 /*--------------- basic styling --------------- */
 html, body {
     margin: 0;
@@ -227,6 +229,7 @@ nav #menu li a:hover {
     }
 }
 
+
 /*--------------- hero section --------------- */
 .hero {
     height: 100vh;
@@ -304,7 +307,7 @@ h6 {
 }
 
 .project1::after {
-    content: "timeless flow.";
+    content: "corporate identity.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -494,7 +497,7 @@ h6 {
 }
 
 .image {
-    background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+    background: url(/img/About.jpg) no-repeat 50% 70%;
 }
 
 /*--------------- contact form --------------- */
@@ -561,6 +564,7 @@ textarea:focus {
 .send:hover {
     background: #dfdfdf;
     color: #101010;
+    
 }
 
 @media(max-width: 768px) {
